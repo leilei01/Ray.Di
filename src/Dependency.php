@@ -47,7 +47,7 @@ final class Dependency implements DependencyInterface
 
     public function __sleep()
     {
-        return ['newInstance', 'postConstruct', 'isSingleton'];
+        return ['newInstance', 'postConstruct', 'isSingleton', 'instance'];
     }
 
     public function __toString()
